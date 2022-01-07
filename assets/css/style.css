@@ -38,7 +38,7 @@ hr {
 .fa-plane,
 .fa-route,
 .fa-mountain {
-  background-color: #1798c1;
+  background-color: #16a8d4;
   margin-left: 0;
   padding: 0 10rem;
 }
@@ -55,4 +55,21 @@ hr {
 
 h2 {
   font-weight: 700;
+}
+
+/* FOOTER  */
+footer {
+  background-color: #16a8d4;
+}
+
+.fa-github,
+.fa-linkedin,
+.fa-twitter-square,
+.fa-facebook-square {
+  padding: 3px;
+  margin-top: 3px;
+}
+
+a {
+  color: #ffffff;
 }
