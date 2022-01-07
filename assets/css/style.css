@@ -4,7 +4,7 @@ body {
   background-color: #000000;
 }
 
-/* BARRA NAVEGACIO & SLIDER */
+/* BARRA NAVEGACION & SLIDER */
 /* --------------------------------- */
 .navbar-brand img {
   max-height: 2em;
@@ -41,4 +41,18 @@ hr {
   background-color: #1798c1;
   margin-left: 0;
   padding: 0 10rem;
+}
+
+/* SECCION CARDS  */
+.card-img-top {
+  max-height: 10rem;
+  font-weight: 300;
+}
+
+.card-title {
+  font-weight: 400;
+}
+
+h2 {
+  font-weight: 700;
 }
