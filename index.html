@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Viajes Chile</title>
+  <!-- ICONO PESTAÑA - FAVICON -->
   <link rel="shortcut icon" href="./assets/img/viajes.svg" type="image/x-icon">
 
   <!-- BOOTSTRAP CSS 4.6.1 -->
@@ -25,6 +26,7 @@
   <!-- SECCION HEADER (Logo/Titulo - Barra Navegacion - Slider ) -->
 
   <header>
+
     <nav class="navbar navbar-expand-lg navbar-light barrita ">
       <a class="navbar-brand text-white" href="#"><img src="./assets/img/viajes.svg" alt="logo"> Viajes Chile</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -34,7 +36,7 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item ">
-            <a class="nav-link" href="#inicio">Inicio</a>
+            <a class="nav-link" href="#inicio" rel="modal:open">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#quienes-somos">Quienes Somos</a>
@@ -76,16 +78,17 @@
         </button>
       </div>
     </div>
+
   </header>
 
   <!-- SECCION QUIENES SOMOS (Parrafo - Iconos) -->
   <section id="quienes-somos" class="mb-5">
     <div class="container">
-      <h2 class="text-center py-4">¿Quiénes Somos?</h2>
+      <h2 class="text-center py-4" id="sec01">¿Quiénes Somos?</h2>
       <hr>
       <div class="row">
         <div class="col-12 col-md-4">
-          <i class="fas fa-plane fa-2x"></i>
+          <i class="fas fa-plane fa-2x" data-toggle="tooltip" data-placement="bottom" title="VUELA A TUS SUEÑOS"></i>
           <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quo dolore
             recusandae pariatur nemo
             inventore saepe ipsum tempore velit, debitis repellat impedit quibusdam in quidem assumenda quaerat officiis
@@ -104,10 +107,11 @@
             voluptate provident, suscipit, et blanditiis aut qui neque ipsa nemo, ipsam consequatur iusto dolorem. Enim
             commodi exercitationem dolor.
           </p>
-          <i class="fas fa-mountain fa-2x"></i>
+          <i class="fas fa-mountain fa-2x" data-toggle="tooltip" data-placement="bottom"
+            title="ESCALA TUS DESAFIOS"></i>
         </div>
         <div class="col-12 col-md-4">
-          <i class="fas fa-route fa-2x"></i>
+          <i class="fas fa-route fa-2x" data-toggle="tooltip" data-placement="bottom" title="CAMINOS A LA AVENTURA"></i>
           <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet quo dolore
             recusandae pariatur nemo
             inventore saepe ipsum tempore velit, debitis repellat impedit quibusdam in quidem assumenda quaerat officiis
@@ -124,7 +128,7 @@
   <!-- SECCION DESTACADOS (Cards) -->
   <section id="destacados" class="py-5">
     <div class="container">
-      <h2 class="text-center"> Destacados </h2>
+      <h2 class="text-center" id="sec02"> Destacados </h2>
       <hr>
       <div class="row justify-content-center">
         <div class="col-12 col-md-3">
@@ -201,7 +205,7 @@
     <div class="container">
       <div class="row">
         <div class="col-6">
-          <h2 class="text-left">VIAJES CHILE</h2>
+          <h2 class="text-left" id="leftfooter">VIAJES CHILE</h2>
         </div>
         <div class="col-6 text-right " id="footicon">
           <a href="https://github.com/latiscool/Viajes-Chile-2022" target="_blank"><i
@@ -222,8 +226,14 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
     crossorigin="anonymous"></script>
+
+  <!-- PARA SMOOTH SCROLL LIBRERIA -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- Mi JS  -->
   <script src="./assets/js/script.js"></script>
+
+
+
 
 </body>
 
