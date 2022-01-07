@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: #ffffff;
+  background-color: #000000;
 }
 
 /* BARRA NAVEGACIO & SLIDER */
@@ -25,4 +26,19 @@ TRANSPARENTE BARRA  */
 
 .navbar .nav-item .nav-link {
   color: #ffffff;
+}
+
+/* SECCION QUIENES SOMOS */
+/* --------------------------- */
+
+hr {
+  border: 1px solid #16a8d4;
+}
+
+.fa-plane,
+.fa-route,
+.fa-mountain {
+  background-color: #1798c1;
+  margin-left: 0;
+  padding: 0 10rem;
 }
