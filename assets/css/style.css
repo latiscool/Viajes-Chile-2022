@@ -1,0 +1,28 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #ffffff;
+}
+
+/* BARRA NAVEGACIO & SLIDER */
+/* --------------------------------- */
+.navbar-brand img {
+  max-height: 2em;
+}
+
+/* 
+TRANSPARENTE BARRA  */
+.barrita {
+  background-color: transparent !important;
+}
+
+/* BARRA SOBRE SLIDER */
+.navbar {
+  position: absolute;
+  width: 100%;
+  z-index: 10;
+  max-width: 100%;
+}
+
+.navbar .nav-item .nav-link {
+  color: #ffffff;
+}
