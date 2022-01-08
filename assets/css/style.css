@@ -10,12 +10,6 @@ body {
   max-height: 2em;
 }
 
-/* 
-TRANSPARENTE BARRA  */
-.barrita {
-  background-color: transparent !important;
-}
-
 /* BARRA SOBRE SLIDER */
 .navbar {
   position: absolute;
@@ -72,4 +66,25 @@ footer {
 
 a {
   color: #ffffff;
+}
+
+/* BARRA BAJAR AL HACER SCROLL */
+.barrita {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  width: 100%;
+  height: 50px;
+}
+
+/* CENTRADO FONT AWESOME DE PARRAFO resoluciones menores */
+
+@media only screen and (max-width: 1190px) {
+  .fa-plane,
+  .fa-route,
+  .fa-mountain {
+    background-color: #16a8d4;
+    margin-left: 0;
+    padding: 0 5rem;
+  }
 }

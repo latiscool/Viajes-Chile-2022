@@ -39,3 +39,14 @@ $('[id="sec01"]').click(function () {
 $('[id="sec02"]').click(function () {
   alert('LUGARES DE ENSUEÑO...');
 });
+
+// AL HACER SCROLL CABIAR DE COLOR
+$(document).ready(function () {
+  $(window).scroll(function () {
+    if ($(window).scrollTop() > $('.barrita').height()) {
+      $('.barrita').css({ 'background-color': '#16a8d4' });
+    } else {
+      $('.barrita').css({ 'background-color': 'transparent' });
+    }
+  });
+});
