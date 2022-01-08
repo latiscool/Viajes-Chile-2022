@@ -41,6 +41,7 @@ $('[id="sec02"]').click(function () {
 });
 
 // AL HACER SCROLL BARRA BAJA Y CAMBIA DE COLOR
+
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(window).scrollTop() > $('.barrita').height()) {
