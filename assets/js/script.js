@@ -40,7 +40,7 @@ $('[id="sec02"]').click(function () {
   alert('LUGARES DE ENSUEÑO...');
 });
 
-// AL HACER SCROLL CABIAR DE COLOR
+// AL HACER SCROLL BARRA BAJA Y CAMBIA DE COLOR
 $(document).ready(function () {
   $(window).scroll(function () {
     if ($(window).scrollTop() > $('.barrita').height()) {
